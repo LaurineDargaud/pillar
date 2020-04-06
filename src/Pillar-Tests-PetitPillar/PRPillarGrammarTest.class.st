@@ -49,7 +49,7 @@ PRPillarGrammarTest >> parserClass [
 { #category : #running }
 PRPillarGrammarTest >> setUp [ 
 	super setUp.
-	self factory: PillarSnippetFactory new.
+	self factory: PillarSnippetFactory  new.
 ]
 
 { #category : #'tests - Reference' }
