@@ -55,6 +55,7 @@ PRFileManager >> morphicViewOnFile: aFile [
 PRFileManager >> okAction [
 	(self reference isFile) ifTrue: [ 
 		editorPresenter openReference: self reference.
+		self dependents first closeWindowAction.
 		 ]
 	
 	
